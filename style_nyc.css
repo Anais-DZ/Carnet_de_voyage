@@ -17,13 +17,13 @@ body {
     padding: 70px 100px ;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 270px;
+    margin-top: 280px;
     transition-duration: 1s;
 
     h1 {
         text-align: center;
         font-family: 'Gloria Hallelujah';
-        font-size: 34px;
+        font-size: 30px;
         font-style: oblique;
         margin: 0;
     }
@@ -31,7 +31,7 @@ body {
     p {
     text-align: center;
     font-family: 'Handlee';
-    font-size: 28px;
+    font-size: 23px;
     margin-bottom: 0;
     }
 
@@ -46,6 +46,11 @@ body {
     transition-duration: 1s;
 }
 
-.container a:active {
-    color: darkgrey;
+.container a:hover {
+    color: rgb(177, 170, 170);
 }
+
+.container a:active {
+    color: rgb(51, 48, 48);
+}
+
