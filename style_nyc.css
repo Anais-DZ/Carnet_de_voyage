@@ -41,10 +41,10 @@ body {
     }
 }
 
-.container:hover {
+/* .container:hover {
     transform: scale(1.3);
     transition-duration: 1s;
-}
+} */
 
 .container a:hover {
     color: rgb(177, 170, 170);
