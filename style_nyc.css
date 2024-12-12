@@ -49,7 +49,36 @@ html, body {
         text-decoration: none;
         color: white;
     }
+
+    .fleche{
+        border: solid white;
+        border-width: 0 5px 5px 0;
+        display: inline-block;
+        padding: 15px;
+        transform: rotate(45deg);
+        margin-top: 30px;
+    }
+    
+    .fleche:hover {
+        transform: scale(1.8) rotate(45deg);
+        /* animation: fleche 0.2s infinite alternate; */
+    }
 }
+    
+    /* @keyframes fleche {
+        0% {
+           transform: translateY(0px); 
+        }
+        50% {
+            transform: translateY(-5px);
+        }
+        100% {
+            transform: translateY(-10px);
+        }
+    }*/
+    
+
+    
 
 .introduction a:hover {
     color: rgb(177, 170, 170);
