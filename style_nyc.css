@@ -27,6 +27,9 @@ html, body {
     margin-right: auto;
     transition-duration: 1s;
     grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     h1 {
         text-align: center;
@@ -57,10 +60,12 @@ html, body {
         padding: 15px;
         transform: rotate(45deg);
         margin-top: 30px;
+        transition-duration: 0.5s;
     }
     
     .fleche:hover {
         transform: scale(1.8) rotate(45deg);
+        transition-duration: 0.5s;
         /* animation: fleche 0.2s infinite alternate; */
     }
 }
@@ -76,17 +81,6 @@ html, body {
             transform: translateY(-10px);
         }
     }*/
-    
-
-    
-
-.introduction a:hover {
-    color: rgb(177, 170, 170);
-}
-
-.introduction a:active {
-    color: rgb(51, 48, 48);
-}
 
 header {
 
@@ -100,6 +94,12 @@ header {
         padding: 0;
     }
 
+    li:hover {
+        color: rgb(51, 48, 48);
+        transition-duration: 0.5s;
+    }
+    
+
     li {
         letter-spacing: 2px;
         color: white;
@@ -107,6 +107,7 @@ header {
         text-align: center;
         padding: 20px 20px 10px 20px;
         font-size: 22px;
+        transition-duration: 0.5s;
     }
 
     .dropdown {
