@@ -15,12 +15,12 @@ html, body {
     background-repeat: no-repeat;
     background-attachment: local;
     width: 100%;
-    height: 700px;
+    height: 800px;
 }
 
 .introduction {
-    background-color: rgba(0, 0, 0, 0.8);
-    width: 800px;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 1000px;
     height: auto;
     padding: 70px 100px ;
     margin-left: auto;
@@ -31,30 +31,33 @@ html, body {
     flex-direction: column;
     align-items: center;
 
-    h1 {
+    h1, p {
+        letter-spacing: 1px;
+        color: rgb(0, 0, 0);
         text-align: center;
+    }
+
+    h1 {
         font-family: 'Gloria Hallelujah';
         font-size: 28px;
         font-style: oblique;
         margin: 0;
-        letter-spacing: 1px;
     }
 
     p {
-    text-align: center;
     font-family: 'Handlee';
     font-size: 20px;
+    font-weight: bold;
     margin-bottom: 0;
-    letter-spacing: 1px;
     }
 
     a {
         text-decoration: none;
-        color: white;
+        color: rgb(0, 0, 0);
     }
 
-    .fleche{
-        border: solid white;
+    .fleche{ /*fleche en css*/
+        border: solid rgb(0, 0, 0);
         border-width: 0 5px 5px 0;
         display: inline-block;
         padding: 15px;
@@ -66,26 +69,24 @@ html, body {
     .fleche:hover {
         transform: scale(1.8) rotate(45deg);
         transition-duration: 0.5s;
-        /* animation: fleche 0.2s infinite alternate; */
-    }
+        /* animation-name: fleche 0.2s infinite alternate;
+    }*/
 }
     
-    /* @keyframes fleche {
-        0% {
+    /*@keyframes fleche {
+        from {
            transform: translateY(0px); 
         }
-        50% {
-            transform: translateY(-5px);
-        }
-        100% {
+
+        to {
             transform: translateY(-10px);
-        }
-    }*/
+        }*/
+    }
 
 header {
 
     ul {
-        background-color: black;
+        background-color: white;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -95,15 +96,16 @@ header {
     }
 
     li:hover {
-        color: rgb(51, 48, 48);
+        color: rgb(167, 164, 164);
         transition-duration: 0.5s;
     }
     
 
     li {
         letter-spacing: 2px;
-        color: white;
+        color: black;
         font-family: 'Handlee';
+        font-weight: bold;
         text-align: center;
         padding: 20px 20px 10px 20px;
         font-size: 22px;
@@ -112,10 +114,10 @@ header {
 
     .dropdown {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         margin-top: 10px;
         position: relative;
-        display: none;
+        display: none;  /*menue deroulant a faire plus tard*/
     }
 }
 
