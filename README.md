@@ -1,7 +1,7 @@
 # Carnet_de_voyage
 
 **Qui a fait ce projet ?**
-<br/>Ce projet, c’est moi, Anaïs. En pleine reconversion professionnelle vers le développement web, j’ai pris l’initiative de créer ce site seule. Ce carnet de voyage est à la fois un moyen de partager une expérience personnelle marquante et un exercice pour approfondir mes compétences en développement web.
+<br/>Ce projet, c’est moi, Anaïs. En reconversion professionnelle dans le développement web, j’ai pris l’initiative de créer ce site seule. Ce carnet de voyage est à la fois un moyen de partager une expérience personnelle marquante et un exercice pour approfondir mes compétences en développement web.
 
 **Qu’est-ce que ce projet ?**
 <br/>C’est un site web conçu comme un carnet de voyage pour partager mes souvenirs de mon séjour en solo à New York, un moment marquant de ma vie. À travers ce site, je raconte mon expérience, mes découvertes et mes impressions, tout en me perfectionnant dans le développement web. Ce projet allie plaisir personnel et apprentissage : il me permet d’approfondir mes connaissances techniques, de m’exercer en HTML, CSS et responsive design, tout en offrant un espace pour partager ce voyage qui m’a tant marqué.
