@@ -7,8 +7,8 @@ body {
 .container {
     display: grid;
     grid-template-rows: 1fr 1.5fr 1fr;
-    background: url(subway-nyc_w.webp) no-repeat center local;
-    background: url(subway-nyc.jpg) no-repeat center local;
+    background: url(./images/subway-nyc_w.webp) no-repeat center local;
+    background: url(./images/subway-nyc.jpg) no-repeat center local;
     background-size: cover;
     width: 100%;
     height: 800px;
@@ -65,19 +65,9 @@ body {
     .fleche:hover {
         transform: scale(1.8) rotate(45deg);
         transition-duration: 0.5s;
-        /* animation-name: fleche 0.2s infinite alternate;
-    }*/
-}
-    
-    /*@keyframes fleche {
-        from {
-           transform: translateY(0px); 
-        }
 
-        to {
-            transform: translateY(-10px);
-        }*/
-    }
+}
+}
 
     header, footer {
 
