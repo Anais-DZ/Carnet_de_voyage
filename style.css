@@ -1,0 +1,225 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr 1.5fr 1fr;
+    background: url(./images/subway-nyc_w.webp) no-repeat center local;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+}
+
+.introduction {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(2px);
+    width: 70%;
+    height: auto;
+    padding: 70px 100px ;
+    margin-left: auto;
+    margin-right: auto;
+    transition-duration: 1s;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1, #paragrapheIntroduction  {
+        letter-spacing: 1px;
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+
+    h1 {
+        font-family: 'Gloria Hallelujah';
+        font-size: 28px;
+        font-style: oblique;
+        margin: 0;
+    }
+
+    #paragrapheIntroduction {
+    font-family: 'Handlee';
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 20px;
+    }
+
+    a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+
+    .fleche{ /*fleche en css*/
+        border: solid rgb(0, 0, 0);
+        border-width: 0 4px 4px 0;
+        display: inline-block;
+        padding: 20px;
+        transform: rotate(45deg);
+        margin-top: 30px;
+        transition-duration: 0.5s;
+    }
+    
+    .fleche:hover {
+        transform: scale(1.8) rotate(45deg);
+        transition-duration: 0.5s;
+    }
+}
+
+header, footer {
+
+    ul {
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0;
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li:hover {
+        color: cornflowerblue;
+        transition-duration: 0.3s;
+    }
+    
+
+    li {
+        letter-spacing: 2px;
+        color: black;
+        font-family: 'Handlee';
+        font-weight: bold;
+        text-align: center;
+        padding: 20px;
+        font-size: 22px;
+        transition-duration: 0.5s;
+        cursor: pointer;
+    }
+
+    .dropdown {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        position: relative;
+        display: none;  /*menue deroulant a faire plus tard*/
+        z-index: 2;
+    }
+
+}
+
+.containerIndex {
+    margin: 0;
+    padding: 0;
+    background: url(./images/vueSurNY.webp) no-repeat center local;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#aPropos {
+    box-shadow: 2px 2px 10px -1px rgba(0,0,0,0.49);
+    width: 80%;
+    background-color: #ffffff;
+    padding: 20px 60px 60px;
+    margin: 100px 0;
+    border-radius: 50px;
+    max-width: 1000px; /* Largeur max du bloc */
+    position: relative;
+}
+    
+
+#titreApropos {
+    color: black;
+    font-family: 'Gloria Hallelujah';
+    font-size: 26px;
+    font-style: oblique;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+}
+
+#summit {
+    width: 25vw;
+    height: auto;
+    border-radius: 50px;
+    float: right;
+    margin: 0 0 20px 20px;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.square {
+    width: 140px;
+    height: 120px;
+    border-radius: 50px;
+    border: solid 15px cornflowerblue;
+    position: absolute;
+    z-index: -1;
+    right: -50px;
+    bottom: -50px;
+}
+
+.little_square {
+    width: 350px;
+    height: 200px;
+    border-radius: 30px;
+    background: rgba(100, 148, 237, 0.659);
+    position: absolute;
+    z-index: -10;
+    left: -70px;
+    top: -40px;
+}
+
+.paragrapheApropos {
+    font-size: 14px;
+    color: #000000;
+    text-align: justify;
+    margin-top: 20px ;
+    font-family: 'Quicksand';
+    font-size: 18px;
+}
+
+p {
+    margin: 0;
+}
+
+/* #jour_1 {
+    border-right: black solid 0.5px;
+    border-bottom: black solid 0.5px;
+    width: 1400px;
+    background-color: #fff;
+    padding: 60px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+    h2 {
+        color: black;
+        font-family: 'Gloria Hallelujah';
+        font-size: 26px;
+        font-style: oblique;
+        margin-bottom: 30px;
+        margin-top: 0;
+        letter-spacing: 1px;
+    }
+
+    img {
+        width: 250px;
+        height: auto;
+        margin: 0px 0px 20px 30px;
+        float: right;
+        border-radius: 4px;
+    }
+
+    p {
+        font-size: 20px;
+        letter-spacing: 1px;
+        color: #000000;
+        text-align: justify;
+        margin: 0;
+        font-family: 'Handlee';
+        font-size: 20px;
+    }
+
+}  */
