@@ -148,12 +148,12 @@ main {
     }
 
     #summit {
-        width: 350px;
+        width: 25vw;
         height: auto;
         border-radius: 50px;
         position: absolute;
         right: -90px;
-        top: -70px;
+        top: -60px;
     }
 
     .square {

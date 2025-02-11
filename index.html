@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Handlee&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style_nyc.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Mon carnet de voyage - NYC</title>
 </head>
 <body>
@@ -42,14 +43,14 @@
 
     <main>
         <article id="a_propos">
-            <h2>À propos...</h2>
-            <!--<picture>
+            <h2 data-aos="fade-right">À propos...</h2>
+            <picture>
                 <source srcset="summit_w.webp" type="image/webp" />
-                <source srcset="summit.jpg" type="image/jpeg" />-->
+                <source srcset="summit.jpg" type="image/jpeg" />
                 <img id="summit" src="summit.jpg" alt="vue_du_summit" />
-            <!--</picture>-->
+            </picture>
                 <div class="square"></div>
-                <div class="little_square"></div>
+                <div data-aos="fade-right" class="little_square"></div>
             <div id="paragraphe_1">
                 <p>Depuis toujours, New York a occupé une place particulière dans mes rêves. Cette ville qui ne dort jamais, avec ses lumières éblouissantes, ses gratte-ciel vertigineux et ses rues grouillantes d’histoires, m’a toujours fascinée. Pourtant, ce n’était pas vers elle que mes pensées étaient tournées dernièrement. Pendant des années, j’ai nourri un autre projet qui me tenait à cœur et qui, à mes yeux, représentait l’aboutissement de nombreux efforts. Mais parfois, la vie prend des tournants inattendus, et ce projet est tombé à l’eau.</p>  
                 
@@ -95,5 +96,7 @@
             <li>Voyager solo</li>
         </ul>
     </footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script> AOS.init();</script>
 </body>
 </html>
