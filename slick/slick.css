@@ -1,0 +1,8 @@
+.slider {
+    width: 80%;
+    margin: 50px auto;
+}
+.slider img {
+    width: 100%;
+    border-radius: 10px;
+}
