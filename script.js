@@ -28,7 +28,7 @@ anime({
     targets: '.nuage2',
     translateX: '1600', // Se déplace vers la gauche
     //opacity: [1, 0], // Devient invisible à la fin
-    duration: 25000, // Plus lent (3s)
+    duration: 23000, // Plus lent (3s)
     easing: 'linear',
     loop: true,
     complete: function(anime) {
